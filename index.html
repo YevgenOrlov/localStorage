@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Данные в форме</h1>
+
+      <form action="">
+
+        <div class="form-div">
+          <label for="username">Username</label>
+          <!-- <input type="submit" value="Отправить" /> -->
+          <input
+          type="text"
+          name="username"
+          id="username"
+          autocomplete="off"
+          placeholder="username"
+        />
+        </div>     
+      
+
+      <div class="form-div">
+        <label for="Age">Age</label>
+        <input
+          type="number"
+          name="Age"
+          id="Age"
+          autocomplete="off"
+          placeholder="20"
+        />
+      </div>
+      
+      <div class="form-div">
+        <label for="race">Race</label>
+        <select name="race"  id="race">
+          <option value="1">elf</option>
+          <option value="2">fred</option>
+          <option value="3">wrtfd</option>
+          <option value="4">htyf</option>
+          <option value="5">fjfte</option>
+        </select>
+
+
+      <div class="form-div">
+        <input type="submit" value="Отправить" />
+      </div>
+    </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
